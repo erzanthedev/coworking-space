@@ -1,4 +1,36 @@
 body {
   margin: 0;
   box-sizing: border-box;
+  color: whitesmoke;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background: #282828;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.icon {
+  width: 25px;
+}
+
+.push-right {
+  margin-left: auto;
 }
