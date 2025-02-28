@@ -1,12 +1,13 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  color: whitesmoke;
+  color: #282828;
   font-family: "Montserrat", sans-serif;
 }
 
 header {
   background: #282828;
+  color: whitesmoke;
 }
 
 nav ul {
@@ -23,7 +24,7 @@ li {
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 700;
 }
 
@@ -33,4 +34,33 @@ li {
 
 .push-right {
   margin-left: auto;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+.item-img {
+  width: 100%;
+  display: block;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 25px;
+  gap: 20px;
+}
+
+button {
+  border: none;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  /* margin: auto 0 auto auto; */
+  align-self: center;
 }
