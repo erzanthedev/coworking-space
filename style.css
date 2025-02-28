@@ -77,3 +77,20 @@ button {
   /* margin: auto 0 auto auto; */
   align-self: center;
 }
+
+.chatbox-bg {
+  position: fixed;
+  bottom: 6px;
+  right: 6px;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  background-color: #dda15e;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img {
+  width: 50%;
+  margin: auto;
+}
